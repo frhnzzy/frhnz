@@ -1,39 +1,97 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f0f8ff;
-  color: #333;
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background: url('https://wallpapercave.com/wp/wp2757874.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
 }
 
 header {
-  background-color: #4f91cd;
-  color: white;
-  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
   text-align: center;
 }
 
-section {
-  padding: 20px;
-  max-width: 800px;
-  margin: auto;
+header h1 {
+  font-size: 2.5rem;
+  color: #fbc531;
 }
 
-.about, .skills {
-  background-color: #ffffff;
-  margin-top: 20px;
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #fbc531;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.crew {
+  padding: 3rem 2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.crew h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #ffeaa7;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #fbc531;
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 15px #fbc531;
+}
+
+.card img {
+  width: 100%;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.skills ul {
-  list-style: square;
-  padding-left: 20px;
+  margin-bottom: 1rem;
 }
 
 footer {
+  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  padding: 15px;
-  background-color: #ddd;
-  margin-top: 30px;
+  padding: 1rem;
+  margin-top: 3rem;
 }
